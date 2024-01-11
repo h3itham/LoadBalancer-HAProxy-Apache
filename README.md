@@ -1,11 +1,7 @@
 # HAProxy Load Balancer with Docker Compose
 
-<<<<<<< HEAD
 ![](./img/haproxy.gif)
 
-=======
-![](./img/main.gif)
->>>>>>> bb63934171085dc3359ec2f60ef63b32ca888146
 This repository demonstrates how to create a simple load balancer using HAProxy and Docker Compose. The setup includes two Apache backend servers that are load balanced by HAProxy.
 
 ## Prerequisites
