@@ -1,14 +1,14 @@
 version: '3'
  
 services:
-    apache_1:
-        container_name: server1
-        build: ./server1
+    app_1:
+        container_name: app-1
+        build: ./app-1
         ports: 
           - 8080:80
-    apache_2:
-        container_name: server2
-        build: ./server2
+    app_2:
+        container_name: app-2
+        build: ./app-2
         ports:
           - 9090:80
     haproxy_img:
